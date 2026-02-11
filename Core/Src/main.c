@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <MCF8315D.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

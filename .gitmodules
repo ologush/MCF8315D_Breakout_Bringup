@@ -1,0 +1,3 @@
+[submodule "Libraries/MCF8315D"]
+	path = Libraries/MCF8315D
+	url = git@github.com:ologush/MCF8315D.git

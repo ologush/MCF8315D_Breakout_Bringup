@@ -14,6 +14,7 @@ target_compile_definitions(stm32cubemx INTERFACE
 
 target_include_directories(stm32cubemx INTERFACE
     ../../Core/Inc
+    ../../Libraries/MCF8315D/inc
     ../../Drivers/STM32L0xx_HAL_Driver/Inc
     ../../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy
     ../../Drivers/CMSIS/Device/ST/STM32L0xx/Include
@@ -44,6 +45,7 @@ target_sources(stm32cubemx INTERFACE
     ../../Core/Src/sysmem.c
     ../../Core/Src/syscalls.c
     ../../startup_stm32l031xx.s
+    ../../Libraries/MCF8315D/src/MCF8315D.c
 )
 
 target_link_directories(stm32cubemx INTERFACE
