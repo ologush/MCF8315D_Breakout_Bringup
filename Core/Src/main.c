@@ -99,7 +99,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM22_Init();
   /* USER CODE BEGIN 2 */
-  motor_ctrl_init(&hi2c1);
+  MCF8315_init(&hi2c1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
